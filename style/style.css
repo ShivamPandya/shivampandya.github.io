@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body,html{
+    height:100%;
+    margin:0;
+    font-family: 'Work Sans', sans-serif;
+    color:#fff;
+}
+
+#particles-js{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(#da4453, #89216b); */
+  /*Ocean Previous:*/
+  background: linear-gradient(#26a0da, #4e4376);
+  /*background: linear-gradient(#0F1D56, #C79A75); */
+  /* background: linear-gradient(#4CA1AF,#2C3E50); */
+}
+
+#particles-js canvas{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1000;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+.content h1{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 3px;
+  font-size: 7vh;
+}
+
+.content p{
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 3.5vh;
+}
+.content p.links{
+  margin: 0;
+  padding: 0;
+  font-size: 2.5vh;
+}
+
+.content  a{
+  margin: 0;
+  padding-bottom: 5px;
+  color: #FFEB3B;
+  z-index: 2000;
+  text-decoration: none;
+}
+
+footer{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 95%;
+  left: 5%;
+}
+
+footer a{
+  text-decoration: none;
+  color: #FFEB3B;
+}
+
+#icons{
+  margin: 0;
+  padding: 0;
+}
+
+#icons li{
+  padding-right: 10px;
+  display: inline;
+}
