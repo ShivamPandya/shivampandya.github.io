@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: absolute;
+    height: 50vh;
+    width: auto;
+    top: 15%;
+    left: 39%;
+}
