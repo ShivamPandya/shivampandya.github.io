@@ -74,12 +74,14 @@ footer a{
   color: #FFEB3B;
 }
 
-#icons{
-  margin: 0;
-  padding: 0;
-}
+@media (max-width: 450px){
+  
+  .content h1{
+    font-size: 6vh;
+  }
 
-#icons li{
-  padding-right: 10px;
-  display: inline;
+  .content p{
+    font-size: 3vh;
+  }
+
 }
