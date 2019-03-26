@@ -56,7 +56,6 @@ body,html{
 .content  a{
   margin: 0;
   padding-bottom: 5px;
-  color: #FFEB3B;
   z-index: 2000;
   text-decoration: none;
 }
@@ -66,11 +65,14 @@ footer{
   padding: 0;
   position: absolute;
   top: 95%;
-  left: 5%;
+  left: 0%;
 }
 
-footer a{
-  text-decoration: none;
+.mail{
+  color: rgb(248, 234, 104);
+}
+
+.who{
   color: #FFEB3B;
 }
 
