@@ -9,7 +9,7 @@
     "soul":{
         "color":"orange",
         "needed":"heart",
-        "powers":"mind control",
+        "powers":"mind control"
     },
 
     "reality":{
@@ -21,7 +21,7 @@
     "time":{
         "color":"green",
         "needed":"necklace of eye of agamotto",
-        "powers":"mind control"
+        "powers":"time control"
     },
 
     "power":{
