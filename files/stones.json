@@ -1,0 +1,39 @@
+{
+"stones":
+    {"space":{
+        "color":"blue",
+        "needed":"tesseract",
+        "powers":"unlimited energy"
+    },
+
+    "soul":{
+        "color":"orange",
+        "needed":"heart",
+        "powers":"mind control",
+    },
+
+    "reality":{
+        "color":"red",
+        "needed":"aether",
+        "powers":"alter the reality"
+    },
+
+    "time":{
+        "color":"green",
+        "needed":"Necklace of Eye of Agamotto",
+        "powers":"mind control"
+    },
+
+    "power":{
+        "color":"purple",
+        "needed":"orb",
+        "powers":"unlimited power"
+    },
+
+    "mind":{
+        "color":"yellow",
+        "needed":"sceptre",
+        "powers":"mind control"
+    }
+}
+}
