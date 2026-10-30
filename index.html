@@ -1,276 +1,333 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Shivam Pandya</title>
-<meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Shivam Pandya is a creative consultant and the founder of Arctique Consulting, specialising in answer engine optimization (AEO) and generative engine optimization (GEO). He helps brands get named by search engines and AI assistants.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
-<style>
-/* Layout: the same poster grid as the Yohaku demo. A vertical line of type, one red sun, one headline, then a quiet reading column with margin labels. */
-:root {
-  --paper: #EEECE7;
-  --ink: #17171A;
-  --mute: #6C6A66;
-  --rule: #D2CFC7;
-  --red: #D23A2A;
-  --indigo: #2C3B5A;
-  --display: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", Georgia, serif;
-  --body: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", system-ui, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #121214; --ink: #ECEAE4; --mute: #9C9A94; --rule: #2D2D31; --red: #E4533F; --indigo: #93A6CE;
-    color-scheme: dark;
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shivam Pandya — Creative Consultant & Founder, Arctique Consulting</title>
+  <meta name="description" content="Shivam Pandya is a creative consultant and founder of Arctique Consulting, specialising in answer engine optimization (AEO) and generative engine optimization (GEO).">
+  <link rel="canonical" href="https://shiv.la/">
+
+  <!-- Preconnect Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+
+  <!-- Entity Graph Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://shiv.la/#shivam",
+        "name": "Shivam Pandya",
+        "url": "https://shiv.la",
+        "jobTitle": "Founder & Creative Consultant",
+        "worksFor": { "@id": "https://shiv.la/#arctique" },
+        "sameAs": [
+          "https://github.com/ShivamPandya",
+          "https://www.linkedin.com/in/YOUR_LINKEDIN_SLUG",
+          "https://medium.com/@YOUR_MEDIUM_USERNAME"
+        ]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://shiv.la/#arctique",
+        "name": "Arctique Consulting",
+        "url": "https://shiv.la",
+        "founder": { "@id": "https://shiv.la/#shivam" },
+        "description": "Creative consulting practice specialising in Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO).",
+        "serviceType": [
+          "Answer Engine Optimization",
+          "Generative Engine Optimization",
+          "Creative Direction",
+          "Entity Engineering"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://shiv.la/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between SEO, AEO and GEO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SEO helps your pages rank in lists of search results. AEO shapes your content so search features and assistants can lift a direct answer from it. GEO aims to get your brand cited or named inside answers written by generative AI systems. All three rest on the same base: clear, trustworthy, well-structured content."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you guarantee my brand will appear in AI answers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. These systems change often and no one outside them controls what they say. I improve the things you do control, which are clarity, structure, evidence and consistency, and then measure what appears over time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does it take to see results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Technical and content fixes can be live within a few weeks. Changes in how often you are cited usually take longer, often a few months, because systems need time to recrawl and re-evaluate your pages."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do you need from me to start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Access to your site and analytics, a list of your main services, and the questions customers ask before they buy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you also do creative work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Positioning, messaging and visual direction are part of the work, because answer engines can only repeat ideas that are clear and distinctive."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "Article",
+        "@id": "https://shiv.la/#geo-note",
+        "headline": "What is generative engine optimization (GEO)?",
+        "description": "A plain-language guide to Generative Engine Optimization (GEO) and how brands can earn citations in AI assistants.",
+        "datePublished": "2026-10-20",
+        "dateModified": "2026-10-20",
+        "author": { "@id": "https://shiv.la/#shivam" },
+        "publisher": { "@id": "https://shiv.la/#arctique" }
+      }
+    ]
   }
-}
-:root[data-theme="dark"] {
-  --paper: #121214; --ink: #ECEAE4; --mute: #9C9A94; --rule: #2D2D31; --red: #E4533F; --indigo: #93A6CE;
-  color-scheme: dark;
-}
+  </script>
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-body {
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--body);
-  font-size: 17px;
-  line-height: 1.85;
-  padding-block: 28px 72px;
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-}
-.page { max-width: 1080px; margin-inline: auto; }
-a { color: inherit; text-decoration: none; }
-a:focus-visible, summary:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
-[id] { scroll-margin-top: 24px; }
-
-/* Masthead */
-.mast { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px 32px; }
-.brand { display: flex; align-items: center; gap: 12px; }
-.brand-dot { width: 18px; height: 18px; border-radius: 50%; background: var(--red); flex: none; }
-.brand-name { font-family: var(--display); font-weight: 700; font-size: 1.3rem; letter-spacing: .04em; line-height: 1; }
-.brand-text { display: flex; flex-direction: column; gap: 7px; }
-.brand-role { font-size: .64rem; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); line-height: 1; }
-.nav { display: flex; flex-wrap: wrap; gap: 8px 26px; font-size: .76rem; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
-.nav a:hover { color: var(--ink); }
-
-/* Poster */
-.poster {
-  margin-top: clamp(44px, 8vw, 96px);
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  grid-template-areas: "vert sun" "text text";
-  column-gap: clamp(16px, 4vw, 56px);
-  row-gap: 44px;
-}
-.vert {
-  grid-area: vert;
-  margin: 0;
-  writing-mode: vertical-rl;
-  font-family: var(--display);
-  font-weight: 700;
-  font-size: clamp(.95rem, 2.6vw, 1.15rem);
-  line-height: 1;
-  letter-spacing: .42em;
-  text-transform: uppercase;
-}
-.sun {
-  grid-area: sun;
-  justify-self: end;
-  width: min(100%, 260px);
-  aspect-ratio: 1;
-  max-width: 100%;
-  border-radius: 50%;
-  background: var(--red);
-}
-.poster-text { grid-area: text; min-width: 0; }
-.kicker { margin: 0 0 18px; font-size: .76rem; letter-spacing: .24em; text-transform: uppercase; color: var(--mute); }
-h1 {
-  margin: 0;
-  font-family: var(--display);
-  font-weight: 500;
-  font-size: clamp(2.9rem, 8.6vw, 5.8rem);
-  line-height: 1.06;
-  letter-spacing: -.01em;
-  text-wrap: balance;
-}
-.dek { margin: 26px 0 0; max-width: 38ch; font-size: 1.1rem; line-height: 1.8; color: var(--mute); }
-.cta { display: inline-block; margin-top: 34px; font-size: .78rem; letter-spacing: .22em; text-transform: uppercase; padding-bottom: 6px; border-bottom: 1px solid var(--ink); }
-.cta:hover { color: var(--red); border-color: var(--red); }
-
-@media (min-width: 800px) {
-  .poster {
-    grid-template-columns: auto minmax(0, 1.15fr) minmax(0, 1fr);
-    grid-template-areas: "vert text sun";
-    align-items: end;
-    row-gap: 0;
-  }
-  .sun { width: min(100%, 380px); align-self: start; }
-  .vert { align-self: start; }
-}
-
-/* Sections */
-.stack { margin-top: clamp(72px, 11vw, 140px); display: grid; gap: clamp(56px, 8vw, 100px); }
-.sec { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
-.label {
-  margin: 0;
-  display: flex; align-items: baseline; gap: 12px;
-  font-size: .74rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--mute);
-}
-.label::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--red); }
-.body { min-width: 0; max-width: 64ch; }
-.body.wide { max-width: 720px; }
-.body p { margin: 0 0 1.3em; }
-.body p:last-child { margin-bottom: 0; }
-@media (min-width: 800px) {
-  .sec { grid-template-columns: 190px minmax(0, 1fr); column-gap: 56px; }
-  .label { padding-top: .55em; align-self: start; }
-}
-h2.big { font-family: var(--display); font-weight: 500; font-size: clamp(1.7rem, 4.2vw, 2.5rem); line-height: 1.3; letter-spacing: -.005em; margin: 0 0 .7em; text-wrap: balance; }
-h3 { font-family: var(--display); font-weight: 700; font-size: 1.4rem; line-height: 1.35; margin: 0 0 .35em; letter-spacing: .01em; }
-.abbr { display: block; font-family: var(--body); font-weight: 500; font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--red); margin-bottom: 6px; }
-
-/* Services */
-.services { display: grid; gap: 2.6em; }
-.services p { margin: 0; }
-
-/* Method */
-.method { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.8em; counter-reset: step; }
-.method li { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 8px; counter-increment: step; }
-.method li::before { content: counter(step); font-family: var(--display); font-size: 1.5rem; line-height: 1.2; color: var(--red); font-variant-numeric: tabular-nums; }
-.method strong { display: block; font-family: var(--display); font-weight: 700; font-size: 1.25rem; letter-spacing: .01em; }
-
-/* Lists with rules: work + notes */
-.rows { list-style: none; margin: 0; padding: 0; }
-.rows > li { border-top: 1px solid var(--rule); padding: 24px 0; }
-.rows > li:last-child { border-bottom: 1px solid var(--rule); }
-.work h3 { margin: 0 0 .3em; }
-.work p { margin: 0; }
-.tag { display: block; margin-bottom: 8px; font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
-.note-row { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: 4px 20px; align-items: baseline; }
-.note-row time { font-size: .8rem; letter-spacing: .08em; color: var(--mute); font-variant-numeric: tabular-nums; }
-.note-row .t { font-family: var(--display); font-weight: 500; font-size: 1.3rem; line-height: 1.4; }
-.note-row .m { grid-column: 2; font-size: .82rem; color: var(--mute); }
-a.note-row:hover .t { color: var(--red); }
-.draft .t { color: var(--mute); }
-@media (max-width: 520px) { .note-row { grid-template-columns: minmax(0, 1fr); } .note-row .m { grid-column: 1; } }
-.fine { margin-top: 18px; font-size: .82rem; color: var(--mute); line-height: 1.6; }
-
-/* FAQ */
-.faq details { border-top: 1px solid var(--rule); }
-.faq details:last-child { border-bottom: 1px solid var(--rule); }
-.faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 20px 0; font-family: var(--display); font-weight: 500; font-size: 1.25rem; line-height: 1.4; }
-.faq summary::-webkit-details-marker { display: none; }
-.faq summary::after { content: "+"; flex: none; font-family: var(--body); font-size: 1.4rem; color: var(--red); line-height: 1; }
-.faq details[open] summary::after { content: "–"; }
-.faq .ans { padding: 0 0 22px; max-width: 60ch; margin: 0; }
-
-/* Contact */
-.contact h2.big { margin-bottom: .4em; }
-.mail { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 26px; }
-.mail code { font-family: var(--body); font-size: 1.05rem; letter-spacing: .02em; overflow-wrap: anywhere; user-select: all; }
-.btn { font: inherit; font-size: .74rem; letter-spacing: .2em; text-transform: uppercase; color: var(--ink); background: transparent; border: 1px solid var(--ink); padding: 9px 18px; border-radius: 999px; cursor: pointer; }
-.btn:hover { color: var(--paper); background: var(--ink); }
-
-/* Article */
-.back { display: inline-block; font-size: .76rem; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
-.back:hover { color: var(--ink); }
-.art-head { margin-top: clamp(40px, 7vw, 80px); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: start; }
-.art-head h1 { font-size: clamp(2.3rem, 6.4vw, 4.2rem); }
-.art-head .sun { width: clamp(64px, 12vw, 120px); justify-self: end; }
-.short { font-family: var(--display); font-weight: 500; font-size: clamp(1.25rem, 2.6vw, 1.55rem); line-height: 1.6; margin: 0; }
-.meta { margin-top: 28px; font-size: .8rem; letter-spacing: .06em; color: var(--mute); }
-.tablewrap { overflow-x: auto; margin: 1.6em 0; }
-table { width: 100%; min-width: 600px; border-collapse: collapse; font-size: .92rem; line-height: 1.6; }
-th, td { text-align: left; vertical-align: top; padding: 14px 16px 14px 0; border-top: 1px solid var(--rule); }
-thead th { font-size: .72rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--red); border-top: 0; padding-top: 0; }
-tbody th { font-weight: 500; color: var(--mute); width: 7.5rem; }
-.checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.1em; }
-.checks li { position: relative; padding-left: 28px; }
-.checks li::before { content: ""; position: absolute; left: 2px; top: .75em; width: 9px; height: 9px; border-radius: 50%; background: var(--red); }
-
-/* Footer */
-.foot { margin-top: 96px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 32px; font-size: .8rem; color: var(--mute); }
-.foot .mark { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--red); margin-right: 12px; }
-</style>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Person", "@id": "#shivam", "name": "Shivam Pandya", "jobTitle": "Founder, Arctique Consulting", "worksFor": { "@id": "#arctique" } },
-    { "@type": "ProfessionalService", "@id": "#arctique", "founder": { "@id": "#shivam" },
-      "name": "Arctique Consulting",
-      "description": "Creative consulting practice specialising in answer engine optimization (AEO) and generative engine optimization (GEO).",
-      "serviceType": ["Answer engine optimization", "Generative engine optimization", "Creative direction"]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the difference between SEO, AEO and GEO?",
-          "acceptedAnswer": { "@type": "Answer", "text": "SEO helps your pages rank in lists of search results. AEO shapes your content so search features and assistants can lift a direct answer from it. GEO aims to get your brand cited or named inside answers written by generative AI systems. All three rest on the same base: clear, trustworthy, well-structured content." }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you guarantee my brand will appear in AI answers?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. These systems change often and no one outside them controls what they say. I improve the things you do control, which are clarity, structure, evidence and consistency, and then measure what appears over time." }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to see results?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Technical and content fixes can be live within a few weeks. Changes in how often you are cited usually take longer, often a few months, because systems need time to recrawl and re-evaluate your pages." }
-        },
-        {
-          "@type": "Question",
-          "name": "What do you need from me to start?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Access to your site and analytics, a list of your main services, and the questions customers ask before they buy. Competitor names help too." }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you also do creative work?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Positioning, messaging and visual direction are part of the work, because answer engines can only repeat ideas that are clear and distinctive." }
-        }
-      ]
-    },
-    {
-      "@type": "Article",
-      "headline": "What is generative engine optimization (GEO)?",
-      "datePublished": "2026-10-20",
-      "dateModified": "2026-10-20",
-      "author": { "@id": "#shivam" },
-      "publisher": { "@id": "#arctique" }
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --paper: #EEECE7;
+      --ink: #17171A;
+      --mute: #6C6A66;
+      --rule: #D2CFC7;
+      --red: #D23A2A;
+      --indigo: #2C3B5A;
+      --display: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", Georgia, serif;
+      --body: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", system-ui, sans-serif;
     }
-  ]
-}
-</script>
 
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --paper: #121214; --ink: #ECEAE4; --mute: #9C9A94; --rule: #2D2D31; --red: #E4533F; --indigo: #93A6CE;
+        color-scheme: dark;
+      }
+    }
+    :root[data-theme="dark"] {
+      --paper: #121214; --ink: #ECEAE4; --mute: #9C9A94; --rule: #2D2D31; --red: #E4533F; --indigo: #93A6CE;
+      color-scheme: dark;
+    }
+
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--body);
+      font-size: 17px;
+      line-height: 1.85;
+      padding-block: 28px 72px;
+      padding-left: max(16px, env(safe-area-inset-left, 0px));
+      padding-right: max(16px, env(safe-area-inset-right, 0px));
+    }
+
+    .page { max-width: 1080px; margin-inline: auto; }
+    a { color: inherit; text-decoration: none; }
+    a:focus-visible, summary:focus-visible, button:focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
+    [id] { scroll-margin-top: 32px; }
+
+    /* Masthead */
+    .mast { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px 32px; }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand-dot { width: 18px; height: 18px; border-radius: 50%; background: var(--red); flex: none; }
+    .brand-name { font-family: var(--display); font-weight: 700; font-size: 1.3rem; letter-spacing: .04em; line-height: 1; }
+    .brand-text { display: flex; flex-direction: column; gap: 7px; }
+    .brand-role { font-size: .64rem; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); line-height: 1; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: .76rem; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
+    .nav a:hover { color: var(--ink); }
+
+    /* Poster */
+    .poster {
+      margin-top: clamp(44px, 8vw, 96px);
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      grid-template-areas: "vert sun" "text text";
+      column-gap: clamp(16px, 4vw, 56px);
+      row-gap: 44px;
+    }
+    .vert {
+      grid-area: vert;
+      margin: 0;
+      writing-mode: vertical-rl;
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: clamp(.95rem, 2.6vw, 1.15rem);
+      line-height: 1;
+      letter-spacing: .42em;
+      text-transform: uppercase;
+    }
+    .sun {
+      grid-area: sun;
+      justify-self: end;
+      width: min(100%, 260px);
+      aspect-ratio: 1;
+      max-width: 100%;
+      border-radius: 50%;
+      background: var(--red);
+    }
+    .poster-text { grid-area: text; min-width: 0; }
+    .kicker { margin: 0 0 18px; font-size: .76rem; letter-spacing: .24em; text-transform: uppercase; color: var(--mute); }
+    h1 {
+      margin: 0;
+      font-family: var(--display);
+      font-weight: 500;
+      font-size: clamp(2.9rem, 8.6vw, 5.8rem);
+      line-height: 1.06;
+      letter-spacing: -.01em;
+      text-wrap: balance;
+    }
+    .dek { margin: 26px 0 0; max-width: 38ch; font-size: 1.1rem; line-height: 1.8; color: var(--mute); }
+    .cta { display: inline-block; margin-top: 34px; font-size: .78rem; letter-spacing: .22em; text-transform: uppercase; padding-bottom: 6px; border-bottom: 1px solid var(--ink); }
+    .cta:hover { color: var(--red); border-color: var(--red); }
+
+    @media (min-width: 800px) {
+      .poster {
+        grid-template-columns: auto minmax(0, 1.15fr) minmax(0, 1fr);
+        grid-template-areas: "vert text sun";
+        align-items: end;
+        row-gap: 0;
+      }
+      .sun { width: min(100%, 380px); align-self: start; }
+      .vert { align-self: start; }
+    }
+
+    /* Sections */
+    .stack { margin-top: clamp(72px, 11vw, 140px); display: grid; gap: clamp(56px, 8vw, 100px); }
+    .sec { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
+    .label {
+      margin: 0;
+      display: flex; align-items: baseline; gap: 12px;
+      font-size: .74rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--mute);
+    }
+    .label::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--red); }
+    .body { min-width: 0; max-width: 64ch; }
+    .body.wide { max-width: 760px; }
+    .body p { margin: 0 0 1.3em; }
+    .body p:last-child { margin-bottom: 0; }
+    @media (min-width: 800px) {
+      .sec { grid-template-columns: 190px minmax(0, 1fr); column-gap: 56px; }
+      .label { padding-top: .55em; align-self: start; }
+    }
+
+    h2.big { font-family: var(--display); font-weight: 500; font-size: clamp(1.7rem, 4.2vw, 2.5rem); line-height: 1.3; letter-spacing: -.005em; margin: 0 0 .7em; text-wrap: balance; }
+    h3 { font-family: var(--display); font-weight: 700; font-size: 1.4rem; line-height: 1.35; margin: 0 0 .35em; letter-spacing: .01em; }
+    .abbr { display: block; font-family: var(--body); font-weight: 500; font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--red); margin-bottom: 6px; }
+
+    /* Services */
+    .services { display: grid; gap: 2.6em; }
+    .services p { margin: 0; }
+
+    /* Method */
+    .method { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.8em; counter-reset: step; }
+    .method li { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 8px; counter-increment: step; }
+    .method li::before { content: counter(step); font-family: var(--display); font-size: 1.5rem; line-height: 1.2; color: var(--red); font-variant-numeric: tabular-nums; }
+    .method strong { display: block; font-family: var(--display); font-weight: 700; font-size: 1.25rem; letter-spacing: .01em; }
+
+    /* Lists with rules */
+    .rows { list-style: none; margin: 0; padding: 0; }
+    .rows > li { border-top: 1px solid var(--rule); padding: 24px 0; }
+    .rows > li:last-child { border-bottom: 1px solid var(--rule); }
+    .work h3 { margin: 0 0 .3em; }
+    .work p { margin: 0; }
+    .tag { display: block; margin-bottom: 8px; font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--mute); }
+    .note-row { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: 4px 20px; align-items: baseline; }
+    .note-row time { font-size: .8rem; letter-spacing: .08em; color: var(--mute); font-variant-numeric: tabular-nums; }
+    .note-row .t { font-family: var(--display); font-weight: 500; font-size: 1.3rem; line-height: 1.4; }
+    .note-row .m { grid-column: 2; font-size: .82rem; color: var(--mute); }
+    a.note-row:hover .t { color: var(--red); }
+    .draft .t { color: var(--mute); }
+    @media (max-width: 520px) { .note-row { grid-template-columns: minmax(0, 1fr); } .note-row .m { grid-column: 1; } }
+    .fine { margin-top: 18px; font-size: .82rem; color: var(--mute); line-height: 1.6; }
+
+    /* FAQ */
+    .faq details { border-top: 1px solid var(--rule); }
+    .faq details:last-child { border-bottom: 1px solid var(--rule); }
+    .faq summary { list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 20px 0; font-family: var(--display); font-weight: 500; font-size: 1.25rem; line-height: 1.4; }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: "+"; flex: none; font-family: var(--body); font-size: 1.4rem; color: var(--red); line-height: 1; }
+    .faq details[open] summary::after { content: "–"; }
+    .faq .ans { padding: 0 0 22px; max-width: 60ch; margin: 0; }
+
+    /* Featured Note Article Section */
+    .featured-article { border-top: 2px solid var(--ink); padding-top: 48px; }
+    .art-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: start; }
+    .art-head h2 { font-size: clamp(2.2rem, 5.5vw, 3.8rem); font-family: var(--display); font-weight: 500; margin: 0; line-height: 1.1; }
+    .art-head .sun-small { width: clamp(48px, 9vw, 84px); aspect-ratio: 1; border-radius: 50%; background: var(--red); }
+    .short { font-family: var(--display); font-weight: 500; font-size: clamp(1.2rem, 2.4vw, 1.45rem); line-height: 1.6; margin: 0; }
+    .meta { margin-top: 20px; font-size: .8rem; letter-spacing: .06em; color: var(--mute); }
+    .tablewrap { overflow-x: auto; margin: 1.6em 0; }
+    table { width: 100%; min-width: 580px; border-collapse: collapse; font-size: .92rem; line-height: 1.6; }
+    th, td { text-align: left; vertical-align: top; padding: 14px 16px 14px 0; border-top: 1px solid var(--rule); }
+    thead th { font-size: .72rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--red); border-top: 0; padding-top: 0; }
+    tbody th { font-weight: 500; color: var(--mute); width: 7.5rem; }
+    .checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.1em; }
+    .checks li { position: relative; padding-left: 28px; }
+    .checks li::before { content: ""; position: absolute; left: 2px; top: .75em; width: 9px; height: 9px; border-radius: 50%; background: var(--red); }
+
+    /* Contact */
+    .contact h2.big { margin-bottom: .4em; }
+    .mail { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 26px; }
+    .mail a { font-family: var(--body); font-size: 1.05rem; letter-spacing: .02em; border-bottom: 1px solid var(--rule); padding-bottom: 2px; }
+    .mail a:hover { border-color: var(--ink); }
+    .btn { font: inherit; font-size: .74rem; letter-spacing: .2em; text-transform: uppercase; color: var(--ink); background: transparent; border: 1px solid var(--ink); padding: 9px 18px; border-radius: 999px; cursor: pointer; }
+    .btn:hover { color: var(--paper); background: var(--ink); }
+
+    /* Footer */
+    .foot { margin-top: 96px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 32px; font-size: .8rem; color: var(--mute); }
+    .foot .mark { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--red); margin-right: 12px; }
+    .foot-links a { margin-left: 16px; }
+    .foot-links a:hover { color: var(--ink); }
+  </style>
+</head>
+<body>
 <div class="page">
   <header class="mast">
-    <a class="brand" href="#">
+    <a class="brand" href="https://shiv.la/">
       <span class="brand-dot" aria-hidden="true"></span>
-      <span class="brand-text"><span class="brand-name">Shivam Pandya</span><span class="brand-role">Founder, Arctique Consulting</span></span>
+      <span class="brand-text">
+        <span class="brand-name">Shivam Pandya</span>
+        <span class="brand-role">Founder, Arctique Consulting</span>
+      </span>
     </a>
     <nav class="nav" aria-label="Main">
+      <a href="#about">About</a>
       <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#notes">Notes</a>
+      <a href="#method">Method</a>
+      <a href="#geo-note">Notes</a>
       <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- HOME VIEW -->
-  <main id="view-home">
+  <main>
+    <!-- HERO POSTER -->
     <section class="poster">
       <p class="vert" aria-hidden="true">AEO · GEO · Creative</p>
       <div class="sun" aria-hidden="true"></div>
       <div class="poster-text">
-        <p class="kicker">Creative consultant &nbsp;·&nbsp; Founder, Arctique Consulting</p>
+        <p class="kicker">Creative Consultant &nbsp;·&nbsp; Founder, Arctique Consulting</p>
         <h1>Be the answer they cite.</h1>
         <p class="dek">I help brands get named by search engines and AI assistants, with ideas and content worth quoting.</p>
         <a class="cta" href="#contact">Start a conversation</a>
@@ -278,14 +335,20 @@ tbody th { font-weight: 500; color: var(--mute); width: 7.5rem; }
     </section>
 
     <div class="stack">
+      <!-- ABOUT -->
       <section class="sec" id="about" aria-labelledby="about-h">
         <h2 class="label" id="about-h">The short version</h2>
         <div class="body">
-          <p class="big-p" style="font-family:var(--display);font-size:clamp(1.3rem,2.8vw,1.65rem);line-height:1.6;margin:0 0 1em;">People now ask questions and get one written answer. Whoever that answer names wins the visit, the call or the sale.</p>
-          <p>I’m Shivam Pandya, a creative consultant and the founder of Arctique Consulting. I work with brands that want to be that name, combining clear positioning with the technical and editorial work that lets search engines and AI systems understand, trust and repeat what you say.</p>
+          <p style="font-family:var(--display);font-size:clamp(1.3rem,2.8vw,1.65rem);line-height:1.6;margin:0 0 1em;">
+            People now ask questions and get one written answer. Whoever that answer names wins the visit, the call or the sale.
+          </p>
+          <p>
+            I’m <strong>Shivam Pandya</strong>, a creative consultant and the founder of Arctique Consulting. I work with brands that want to be that name, combining clear positioning with the technical and editorial work that lets search engines and AI systems understand, trust and repeat what you say.
+          </p>
         </div>
       </section>
 
+      <!-- SERVICES -->
       <section class="sec" id="services" aria-labelledby="services-h">
         <h2 class="label" id="services-h">What I do</h2>
         <div class="body wide services">
@@ -307,6 +370,7 @@ tbody th { font-weight: 500; color: var(--mute); width: 7.5rem; }
         </div>
       </section>
 
+      <!-- METHOD -->
       <section class="sec" id="method" aria-labelledby="method-h">
         <h2 class="label" id="method-h">How it works</h2>
         <div class="body wide">
@@ -319,43 +383,66 @@ tbody th { font-weight: 500; color: var(--mute); width: 7.5rem; }
         </div>
       </section>
 
+      <!-- SELECTED WORK -->
       <section class="sec work" id="work" aria-labelledby="work-h">
         <h2 class="label" id="work-h">Selected work</h2>
         <div class="body wide">
           <ul class="rows">
             <li>
-              <span class="tag">Sample project &nbsp;·&nbsp; Skincare brand</span>
-              <h3>From product list to trusted answer</h3>
-              <p>Rebuilt ingredient and routine pages around the questions shoppers ask, added structured data, and aligned the brand description across marketplaces and social profiles.</p>
+              <span class="tag">Case Focus &nbsp;·&nbsp; High-Growth Tech & Consumer</span>
+              <h3>Entity Structuring for AI Overviews</h3>
+              <p>Restructuring product data and brand entity profiles so conversational engines synthesize unique value propositions instead of competitor fallbacks.</p>
             </li>
             <li>
-              <span class="tag">Sample project &nbsp;·&nbsp; B2B software</span>
-              <h3>One sentence, said the same way everywhere</h3>
-              <p>Rewrote positioning, then published a set of comparison and how-to notes written to be quoted, with clear definitions and sourced claims.</p>
-            </li>
-            <li>
-              <span class="tag">Sample project &nbsp;·&nbsp; Local services</span>
-              <h3>Named for the neighbourhood</h3>
-              <p>Cleaned up business listings, wrote location-specific answer pages and set up a monthly check of how assistants recommend providers in the area.</p>
+              <span class="tag">Case Focus &nbsp;·&nbsp; B2B & Advisory</span>
+              <h3>One sentence, verified across independent nodes</h3>
+              <p>Rebuilt company knowledge graph footprints across authoritative third-party sources, enabling direct citation in RAG research queries.</p>
             </li>
           </ul>
-          <p class="fine">These are sample entries. Replace them with your own projects and results.</p>
         </div>
       </section>
 
-      <section class="sec" id="notes" aria-labelledby="notes-h">
-        <h2 class="label" id="notes-h">Notes</h2>
+      <!-- FEATURED ARTICLE: CRAWLABLE IN DOM -->
+      <section class="sec featured-article" id="geo-note" aria-labelledby="note-h">
+        <h2 class="label" id="note-h">Core Note</h2>
         <div class="body wide">
-          <h2 class="big">Plain-language notes on search, answers and AI.</h2>
-          <ul class="rows">
-            <li><a class="note-row" href="#note"><time datetime="2026-10-20">Oct 20, 2026</time><span class="t">What is generative engine optimization (GEO)?</span><span class="m">Definition · 6 min read</span></a></li>
-            <li><div class="note-row draft"><time datetime="2026-10-27">Coming soon</time><span class="t">AEO vs SEO: what changes on the page</span><span class="m">Guide</span></div></li>
-            <li><div class="note-row draft"><time datetime="2026-11-03">Coming soon</time><span class="t">How to write a page an AI assistant can quote</span><span class="m">How-to</span></div></li>
-            <li><div class="note-row draft"><time datetime="2026-11-10">Coming soon</time><span class="t">A monthly check: who do assistants name in your category?</span><span class="m">Method</span></div></li>
-          </ul>
+          <header class="art-head">
+            <div>
+              <p class="kicker">Framework &nbsp;·&nbsp; 6 min read</p>
+              <h2>What is generative engine optimization (GEO)?</h2>
+            </div>
+            <div class="sun-small" aria-hidden="true"></div>
+          </header>
+          <p class="meta">By Shivam Pandya &nbsp;·&nbsp; Arctique Consulting</p>
+
+          <div style="margin-top: 32px;">
+            <p class="short">Generative engine optimization (GEO) is the practice of structuring content, evidence, and entity signals so large language models (ChatGPT, Perplexity, Claude, and Gemini) synthesize and cite your brand when answering complex prompts.</p>
+            
+            <p>Researchers introduced the term in late 2023 to evaluate how source visibility shifts in AI-synthesized responses. Their findings showed that adding authoritative citations, statistics, and unambiguous entity markers dramatically raised model inclusion.</p>
+
+            <div class="tablewrap">
+              <table>
+                <thead>
+                  <tr><th></th><th scope="col">SEO</th><th scope="col">AEO</th><th scope="col">GEO</th></tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row">Goal</th><td>Rank in list of links</td><td>Win direct answer snippets</td><td>Earn brand citations in synthesized answers</td></tr>
+                  <tr><th scope="row">Engine</th><td>Google, Bing</td><td>Voice, Featured Snippets</td><td>ChatGPT, Perplexity, Claude, Gemini</td></tr>
+                  <tr><th scope="row">Core Driver</th><td>Keywords & Backlinks</td><td>Answer-first Q&A, Schema</td><td>Entity consensus, Information Gain, Data</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <ul class="checks">
+              <li>Answer target queries within the first two sentences.</li>
+              <li>Establish standardized entity definitions across all external profiles.</li>
+              <li>Publish original research, benchmarks, and named frameworks to provide clear information gain.</li>
+            </ul>
+          </div>
         </div>
       </section>
 
+      <!-- FAQ -->
       <section class="sec faq" id="faq" aria-labelledby="faq-h">
         <h2 class="label" id="faq-h">Questions</h2>
         <div class="body wide">
@@ -382,147 +469,45 @@ tbody th { font-weight: 500; color: var(--mute); width: 7.5rem; }
         </div>
       </section>
 
+      <!-- CONTACT -->
       <section class="sec contact" id="contact" aria-labelledby="contact-h">
         <h2 class="label" id="contact-h">Contact</h2>
         <div class="body wide">
           <h2 class="big">Tell me what you want to be known for.</h2>
-          <p>Send a short note with your website and the three questions you most want to be the answer to.</p>
+          <p>Send a short note with your website and the core questions you want your brand to answer.</p>
           <div class="mail">
-            <code id="email">hello@yourdomain.com</code>
-            <button class="btn" type="button" id="copy">Copy address</button>
+            <a href="mailto:hello@shiv.la" id="email">hello@shiv.la</a>
+            <button class="btn" type="button" id="copy">Copy email</button>
           </div>
         </div>
       </section>
     </div>
   </main>
 
-  <!-- ARTICLE VIEW -->
-  <main id="view-note" hidden>
-    <a class="back" href="#notes">← All notes</a>
-    <article>
-      <header class="art-head">
-        <div>
-          <p class="kicker">Definition &nbsp;·&nbsp; 6 min read</p>
-          <h1>What is generative engine optimization (GEO)?</h1>
-        </div>
-        <div class="sun" aria-hidden="true"></div>
-      </header>
-      <p class="meta">By Shivam Pandya, founder of Arctique Consulting &nbsp;·&nbsp; Published <time datetime="2026-10-20">Oct 20, 2026</time> &nbsp;·&nbsp; Updated <time datetime="2026-10-20">Oct 20, 2026</time></p>
-
-      <div class="stack" style="margin-top:clamp(48px,7vw,88px)">
-        <section class="sec">
-          <h2 class="label">Short answer</h2>
-          <div class="body"><p class="short">Generative engine optimization (GEO) is the practice of making your content and brand easy for AI systems to find, understand and cite when they write answers. The goal is to be named in the answer, not only listed in the results.</p></div>
-        </section>
-
-        <section class="sec">
-          <h2 class="label">Where the term comes from</h2>
-          <div class="body">
-            <p>Researchers used the name “generative engine optimization” in a 2023 academic paper that studied how to raise a source’s visibility in AI-written answers. In their tests, adding relevant statistics, quotations and citations to content raised how prominently it appeared.</p>
-            <p>The idea has since spread through marketing. It sits next to two older terms: search engine optimization (SEO) and answer engine optimization (AEO).</p>
-          </div>
-        </section>
-
-        <section class="sec">
-          <h2 class="label">GEO, AEO and SEO</h2>
-          <div class="body wide">
-            <p>The three overlap, but each aims at a different outcome.</p>
-            <div class="tablewrap">
-              <table>
-                <thead><tr><th></th><th scope="col">SEO</th><th scope="col">AEO</th><th scope="col">GEO</th></tr></thead>
-                <tbody>
-                  <tr><th scope="row">Goal</th><td>Rank pages in lists of results</td><td>Be the direct answer in snippets, voice and AI summaries</td><td>Be cited or recommended in text written by AI systems</td></tr>
-                  <tr><th scope="row">Measured by</th><td>Rankings, impressions, clicks</td><td>Answer features won, branded queries</td><td>Mentions and citations in AI answers</td></tr>
-                  <tr><th scope="row">Helps most</th><td>Relevance, links, technical health</td><td>Concise answers, structured data, question-led headings</td><td>Clear facts about who you are, evidence, consistent mentions on trusted sites</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        <section class="sec">
-          <h2 class="label">What tends to help</h2>
-          <div class="body">
-            <ul class="checks">
-              <li>Answer the question in the first two sentences of a page, then explain.</li>
-              <li>Say who you are and what you do in plain words, and keep that description identical across your site and profiles.</li>
-              <li>Add original evidence: data, examples and named sources.</li>
-              <li>Use structured data that matches what is visible on the page.</li>
-              <li>Keep pages crawlable and fast, and check that your robots.txt does not block the crawlers of systems you want to cite you.</li>
-              <li>Earn mentions on sites your buyers and these systems already trust.</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="sec">
-          <h2 class="label">What no one can promise</h2>
-          <div class="body">
-            <p>No one can guarantee a place in an AI answer. The systems differ, change often and do not publish their ranking rules. Good GEO improves the inputs you control and then measures the outcome on a regular schedule.</p>
-          </div>
-        </section>
-
-        <section class="sec faq">
-          <h2 class="label">Quick questions</h2>
-          <div class="body wide">
-            <details>
-              <summary>Is GEO replacing SEO?</summary>
-              <p class="ans">No. Most AI systems still rely on the open web, and the same foundations, such as clear content, good structure and trusted sources, support both.</p>
-            </details>
-            <details>
-              <summary>Do I need new content for GEO?</summary>
-              <p class="ans">Often you need better versions of existing pages first: clearer definitions, direct answers and evidence. New notes then fill the questions your site does not yet answer.</p>
-            </details>
-          </div>
-        </section>
-      </div>
-    </article>
-  </main>
-
   <footer class="foot">
-    <span><span class="mark" aria-hidden="true"></span>Shivam Pandya · Founder, Arctique Consulting. AEO, GEO and creative consulting.</span>
-    <span>© 2026</span>
+    <span><span class="mark" aria-hidden="true"></span>Shivam Pandya · Arctique Consulting</span>
+    <div class="foot-links">
+      <a href="https://github.com/ShivamPandya" target="_blank" rel="me">GitHub</a>
+      <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_SLUG" target="_blank" rel="me">LinkedIn</a>
+      <a href="https://medium.com/@YOUR_MEDIUM_USERNAME" target="_blank" rel="me">Medium</a>
+    </div>
   </footer>
 </div>
 
 <script>
-(function () {
-  var home = document.getElementById("view-home");
-  var note = document.getElementById("view-note");
-
-  function route() {
-    var h = location.hash;
-    var isNote = h === "#note";
-    home.hidden = isNote;
-    note.hidden = !isNote;
-    if (isNote) { window.scrollTo(0, 0); return; }
-    var el = h.length > 1 ? document.getElementById(h.slice(1)) : null;
-    if (el) { el.scrollIntoView(); } else { window.scrollTo(0, 0); }
-  }
-  window.addEventListener("hashchange", route);
-  route();
-
-  var btn = document.getElementById("copy");
-  var email = document.getElementById("email");
-  if (btn && email) {
-    btn.addEventListener("click", function () {
-      var text = email.textContent;
-      function fallback() {
-        var r = document.createRange();
-        r.selectNodeContents(email);
-        var s = window.getSelection();
-        s.removeAllRanges();
-        s.addRange(r);
-        btn.textContent = "Selected";
-      }
-      try {
+  (function () {
+    var btn = document.getElementById("copy");
+    var email = document.getElementById("email");
+    if (btn && email) {
+      btn.addEventListener("click", function () {
+        var text = email.textContent.trim();
         navigator.clipboard.writeText(text).then(function () {
           btn.textContent = "Copied";
-          setTimeout(function () { btn.textContent = "Copy address"; }, 1800);
-        }, fallback);
-      } catch (e) { fallback(); }
-    });
-  }
-})();
+          setTimeout(function () { btn.textContent = "Copy email"; }, 1800);
+        });
+      });
+    }
+  })();
 </script>
-
-</body></html>
+</body>
+</html>
